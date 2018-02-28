@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor redColor];
+    
+    self.view.frame = CGRectMake(0, 0, 50, 40);
 }
 
 
